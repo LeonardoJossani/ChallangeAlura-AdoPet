@@ -1,0 +1,85 @@
+.navbar-home {
+    display: flex;
+    justify-content: flex-start;
+    gap: 58px;
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+}
+
+.usuario {
+    width: 40px;
+    height: 40px;
+    margin-left: 125px;
+}
+
+.home__section {
+    background-color: var(--creme);
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo__home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.texto__home {
+    color: var(--azul);
+    margin-bottom: 3em;
+}
+
+.pets-section {
+    margin-left: 24px;
+    display: flex;
+    gap: 16px;
+    width: 95%;
+    margin-bottom: 1em;
+}
+
+.pet-foto {
+    width: 148px;
+    height: 148px;
+}
+
+.pet-nome {
+    color: var(--azul);
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.pet-idade, 
+.pet-porte,
+.pet-descricao {
+    color: var(--cinza-escuro);
+    font-size: 14px;
+    margin-bottom: 0.2em;
+}
+
+.local,
+.responsavel {
+    color: var(--cinza-escuro);
+}
+
+.local {
+    font-size: 12px;
+    margin-top: 28px;
+    margin-bottom: 0.5em;
+}
+
+.responsavel {
+    font-size: 10px;
+}
+
+.falar-com-responsavel {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    text-decoration: none;
+}

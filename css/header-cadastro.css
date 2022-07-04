@@ -1,0 +1,30 @@
+.header {
+    padding: 48px;
+}
+
+.imagem__header {
+    z-index: 0;
+    position: absolute;
+    left: -1%;
+    top: 0%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 58px;
+    
+}
+
+.icone__header {
+    position: absolute;
+    z-index: 1;
+    margin-right: 58px;
+}
+
+.patas {
+    position: absolute;
+    top: 0%;
+    left: calc(100% - 135px);
+}
