@@ -6,7 +6,7 @@
     background-image: url("../img/Forma-2.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-position-x: 100%;
+    background-position-x: 100%; 
 }
 
 .conteudo__inicio {
@@ -21,17 +21,22 @@
     margin-bottom: 1.5em;
 }
 
-.titulo__home,
-.texto__home {
+.titulo__inicio,
+.texto__inicio {
     text-align: center;
     color: var(--branco);
     width: 60%;
     padding: 1rem;
 }
 
-.titulo__home {
+.titulo__inicio {
     font-size: 26px;
     font-weight: 500;
+}
+
+.texto__inicio {
+    font-size: 1em;
+    font-weight: 400;
 }
 
 .botoes__home {
@@ -56,4 +61,40 @@
     width: 70%;
     margin-top: 24px;
     margin-bottom: -24px;
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        margin-top: 10em;
+        width: 40%;
+    }
+
+    .botoes__link {
+        width: 344px;
+    }
+
+    .inicio__section {
+        background: url("../img/Forma_2.2.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: 100%; 
+        background-color: var(--azul);
+
+    }
+
+    .ilustracao {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 900px) and (min-width: 1200px) {
+    .ilustracao {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .ilustracao {
+        width: 30%;
+    }
 }

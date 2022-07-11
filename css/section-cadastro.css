@@ -69,4 +69,44 @@
     font-family: var(--fonte-principal);
     color: var(--branco);
     border-radius: 6px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .logo-azul {
+        margin-top: 10em;
+        width: 30%;
+    }
+
+    .cadastro__section {
+        background: url("../img/Forma_2.2.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: 100%; 
+    }
+
+    .input {
+        width: 40%;
+    }
+
+    .botao {
+        margin-bottom: 193px;
+    }
+
+    .texto__cadastro {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 900px) and (min-width: 1200px) {
+    .senha {
+        max-width: 360px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .senha {
+        max-width: 360px;
+    }
 }

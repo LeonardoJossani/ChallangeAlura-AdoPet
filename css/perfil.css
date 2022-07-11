@@ -1,0 +1,23 @@
+.perfil {
+    color: var(--cinza-escuro);
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.foto-perfil {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0.25em;
+}
+
+.editar-perfil {
+    font-size: 12px;
+    color: var(--coral);
+    margin-bottom: 0.25em;
+}
+
+.input-perfil::placeholder {
+    color: var(--cinza-escuro);
+    font-size: 12px;
+}

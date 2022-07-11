@@ -8,6 +8,7 @@
     position: absolute;
     left: -1%;
     top: 0%;
+    width: 100%;
 }
 
 .navbar {
@@ -20,5 +21,46 @@
 .icone__header {
     position: absolute;
     z-index: 1;
-    margin-right: 58px;
+}
+
+.logo-header {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .logo-header {
+        display: flex;
+        align-items: center;
+        margin-right: 100px;
+    }
+
+    .img-logo-header {
+        width: 50%;
+        margin-top: 1em;
+    }
+
+    .imagem__header {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .imagem__header {
+        width: 45%;
+    }
+
+    .navbar {
+        margin-left: 160px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .imagem__header {
+        width: 45%;
+    }
+
+    .navbar {
+        margin-left: 160px;
+    }
 }

@@ -7,6 +7,7 @@
     position: absolute;
     left: -1%;
     top: 0%;
+    width: 100%;
 }
 
 .navbar {
@@ -27,4 +28,60 @@
     position: absolute;
     top: 0%;
     left: calc(100% - 135px);
+}
+
+.logo-header {
+    display: none;
+}
+
+.patas2 {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .logo-header {
+        display: flex;
+        align-items: center;
+        margin-right: 100px;
+    }
+
+    .img-logo-header {
+        width: 50%;
+        margin-top: 1em;
+    }    
+
+    .imagem__header {
+        width: 70%;
+    }
+
+    .patas {
+        display: none;
+    }
+
+    .patas2{
+        display: block;
+        position: absolute;
+        top: 0%;
+        left: calc(100% - 294px);
+    }
+}
+
+@media screen and (min-width: 900px) and (min-width: 1200px) {
+    .imagem__header {
+        width: 45%;
+    }
+
+    .navbar {
+        margin-left: 160px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .imagem__header {
+        width: 45%;
+    }
+
+    .navbar {
+        margin-left: 160px;
+    }
 }
