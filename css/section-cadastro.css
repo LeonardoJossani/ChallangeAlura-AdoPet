@@ -110,3 +110,7 @@
         max-width: 360px;
     }
 }
+
+.errado {
+    border: 3px solid red;
+}

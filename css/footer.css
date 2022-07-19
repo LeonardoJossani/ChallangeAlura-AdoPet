@@ -6,4 +6,6 @@
 .texto__footer {
     color: var(--branco);
     padding: 40px 0 40px 0;
+    font-size: 1em;
+    font-weight: 400;
 }

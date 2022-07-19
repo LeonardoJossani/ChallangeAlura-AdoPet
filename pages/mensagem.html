@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdoPet | Mensagem</title>
+    <link rel="icon" href="../img/Ilustração.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header-cadastro.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar-home">
+            <li class="logo-header">
+                <a href="#" class="icone__header">
+                    <img src="../img/Logo.png" alt="Logo da AdoPet" class="img-logo-header">
+                </a>
+            </li>
+            
+            <li class="icones">
+                <a href="home.html" class="icone__header">
+                    <img src="../img/Casa.png" alt="Icone de casa">
+                </a>
+            </li>
+
+            <li class="icones">
+                <a href="#" class="icone__header">
+                    <img src="../img/Mensagens.png" alt="Icone de carta">
+                </a>
+            </li>
+        </nav>
+        
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <img src="../img/Usuário.png" alt="Foto de perfil de usuário" class="usuario-imagem">
+        </label>
+        
+        <img class="imagem__header" src="../img/Forma-1.svg">
+
+        <ul class="listagem__menu">
+            <li class="itens__menu">
+                <a href="perfil.html">Perfil</a>
+            </li>
+            <li class="itens__menu">
+                <a href="../inicio.html">Sair</a>
+            </li>
+        </ul>
+    </header>
+
+    <section class="mensagem__section">
+        <div class="conteudo__mensagem">
+            <p class="texto__mensagem">Envie uma mensagem para a pessoa ou instituição que está cuidando do pet:</p>
+        </div><!--conteudo__mensagem-->
+
+        <form class="mensagem" id="formMensagem">
+            <h2 class="titulo-mensagem">Nome</h2>
+            <input class="input input-mensagem" type="text" placeholder="Insira seu nome completo" id="nomeMensagem" required>
+
+            <h2 class="titulo-mensagem">Telefone</h2>
+            <input class="input input-mensagem" type="tel" placeholder="Insira seu telefone e/ou whatsapp" id="telefoneMensagem" required>
+
+            <h2 class="titulo-mensagem">Nome do pet</h2>
+            <input class="input input-mensagem" type="text" placeholder="Por qual animal você se interessou?" id="nomePet" required>
+
+            <h2 class="titulo-mensagem">Mensagem</h2>
+            <textarea class="textarea input-mensagem" name="mensagem" id="mensagemPet" cols="30" rows="10" placeholder="Escreva sua mensagem" required></textarea>
+
+            <button class="botao" type="submit">Enviar</button>            
+        </form><!--mensagem-->
+        
+    </section>
+
+
+    <footer class="footer">
+        <h2 class="texto__footer">2022 - Desenvolvido por Leonardo Jossani.</h2>
+    </footer>
+
+    <script src="../js/mensagem.js"></script>
+</body>
+</html> 

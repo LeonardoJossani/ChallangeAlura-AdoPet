@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdoPet | Cadastro</title>
+    <link rel="icon" href="../img/Ilustração.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header-cadastro.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <li class="logo-header">
+                <a href="#" class="icone__header">
+                    <img src="../img/Logo.png" alt="Logo da AdoPet" class="img-logo-header">
+                </a>
+            </li>
+            
+            <li>
+                <a href="../inicio.html" class="icone__header">
+                    <img src="../img/Casa.png" alt="Icone de casa">
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="icone__header">
+                    <img src="../img/Mensagens.png" alt="Icone de carta">
+                </a>
+            </li>
+        </nav>        
+        <img class="imagem__header" src="../img/Forma-1.svg">
+        <img src="../img/Patas.png" alt="Imagem de patas" class="patas">
+        <img src="../img/Patas2.png" alt="Imagem de patas" class="patas2">
+    </header>
+
+    <section class="cadastro__section">
+        <div class="conteudo__cadastro">
+            <img src="../img/Logo-azul.svg" alt="Icone do logo AdoPet" class="logo-azul">
+            <h1 class="titulo__cadastro">Ainda não tem cadastro?</h1>
+            <p class="texto__cadastro">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+        </div><!--conteudo__cadastro-->
+        <form class="cadastro">
+            <h2 class="cadastro-titulo">Email</h2>
+            <input type="email" placeholder="Escolha seu melhor email" class="input" id="email" required>
+            <h2 class="cadastro-titulo">Nome</h2>
+            <input type="text" placeholder="Digite seu nome completo" class="input" id="nomeCompleto" required>
+            <h2 class="cadastro-titulo">Senha</h2>
+            <input type="password" placeholder="Crie uma senha" class="input senha" id="senha" required>
+            <h2 class="cadastro-titulo">Confirma sua senha</h2>
+            <input type="password" placeholder="Repita a senha criada acima" class="input senha" id="confirmaSenha" required>
+            <button type="submit" class="botao" id="botaoCadastro">Cadastrar!</button>
+        </form><!--cadastro-->
+        
+        <!--<button class="revelar botao">Revelar</button>-->
+    </section>
+
+
+    <footer class="footer">
+        <h2 class="texto__footer">2022 - Desenvolvido por Leonardo Jossani.</h2>
+    </footer>
+
+    <script src="../js/cadastro.js"></script>
+</body>
+</html>
